@@ -1,28 +1,34 @@
-Features:
+Neue Features:
 
-- Neueres/moderneres Design
-- Fehlerbehebungen bei der Namensänderung
-- Account kann nun gelöscht werden, sobald man nicht mehr möchte, dass seine Mac-Adresse online (aber natürlich nicht öffentlich) gespeichert wird
-- Benutzer werden online gespeichert und durch die Mac-Adresse Identifiziert
 - Benachrichtigungen sind nun Verfügbar
-- Um die Benachrichtigungen nützlicher zu machen gibt es nun auch einen "System Tray" der im Hintergrund läuft und in der Taskleiste sichtbar ist
-- Der System Tray wird automatisch aktiviert und kann sobald er mit der linken Maustaste gedrückt wird Secret Chat® öffnen, und bei einem Rechtsklick wird das Programm beendet
-- Einstellungen wurden hinzugefügt:
-    - Autostart einstellen.
-    - Benachrichtigungen an- oder ausschalten
-    - Name kann geändert werden
-    - Die Zeit nach welcher neue Nachrichten geprüft werden ist nun einstellbar
-    - Desktop-Verknüpfung mit einem Klick erstellen
+- Einstellungen zur personalisierung wurden hinzugefügt :
+    - Autostart ist jetzt einstellbar
+    - Benachrichtigungen können an- oder ausgeschaltet werden
+    - Benutzername ist änderbar
+    - Die Zeit/der Intervall nach welcher/em nach neue Nachrichten geprüft wird ist nun einstellbar
+    - Desktop-Verknüpfung automatisch erstellen
     
+- Um die Benachrichtigungen nützlicher zu machen gibt es nun auch einen "System Tray" der im Hintergrund läuft und in der Taskleiste sichtbar ist
+- Beim Secret Chat® System Tray gibt es nun ein Menü
+- Der System Tray lässt sich nun ausblenden
+- Aktive Nutzer werden in die Liste Aktiv eingetragen, Benutzer die Secret Chat® nur im Hintergrund haben gelten als abwesend
+- Eigene Nachrichten werden Hellblau hervorgehoben
+- Account kann nun gelöscht werden, sobald man nicht mehr möchte, dass seine Mac-Adresse online (aber natürlich nicht öffentlich) gespeichert wird
+- Benutzer werden online gespeichert und durch die Mac-Adresse Identifiziert   
 - Version und Programm Informationen lassen sich in der rechten Ecke bei den Einstellungen durch einen klick ablesen
 - Ein Ladebildschirm/Splashscreen wurde hinzugefügt
 - Es wurden Sound-Effects hinzugefügt
-- Das Programm prüft nun bei jedem Start nach einer neuen Version und lässt sich nicht starten bei einer verälterten Version um Bugs zu vermeiden
-- Aktive Nutzer werden in die Liste Aktiv eingetragen, Benutzer die das Programm nur im Hintergrund haben gelten als abwesend
-- Eigene Nachrichten werden Hellblau hervorgehoben
 - Es wird ein Symbol angezeigt sobald es neue Nachrichten gibt
 - Durch senden einer eigenen Nachricht wird automatisch nach unten gescrollt
-- Bei Internet Problemen stürzt das Proggramm nicht sofort ab, sondern die Probleme werden erkannt und der Nutzer wird informiert
 - Nachrichten sind mit ↩ verschickbar
+- Verbessertes Design
+
+
+Fehlerbehebungen: 
+
+- Bei leeren Nachrichten kommt keine MessageBox, sondern es passiert garnichts
+- Bei Internet Problemen stürzt das Proggramm nicht sofort ab, sondern die Probleme werden erkannt und der Nutzer wird informiert
 - Es kann nur eine Instanz von Secret Chat® geöffnet werden, um Fehler zu vermeiden
-- Noch viele weitere Features und Fehlerbehebungen!
+- Fehlerbehebungen bei der Namensänderung
+- Der System Tray wird nun automatisch aktiviert
+- Das Programm prüft nun bei jedem Start nach einer neuen Version und lässt sich nicht starten bei einer verälterten Version um Bugs zu vermeiden
