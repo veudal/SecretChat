@@ -31,4 +31,5 @@ Fehlerbehebungen:
 - Es kann nur eine Instanz von Secret Chat® geöffnet werden, um Fehler zu vermeiden
 - Fehlerbehebungen bei der Namensänderung
 - Der System Tray wird nun automatisch aktiviert
+- Doppelte Nachrichten beim starten des Programms wurden entfernt
 - Das Programm prüft nun bei jedem Start nach einer neuen Version und lässt sich nicht starten bei einer verälterten Version um Bugs zu vermeiden
