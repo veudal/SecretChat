@@ -1,5 +1,6 @@
 Neue Features:
 
+- Wer aktuell schreibt ist nun sichtbar!
 - Dark und light mode!!!
 - Profilbilder!!! Beantrage eine Verifizierung in den Einstellungen, nachdem du vertifiziert bist kannst du dein Profilbild ändern, bitte beachten: das Profilbild darf nicht größer als 200KB sein.
 - Benachrichtigungen sind nun Verfügbar
@@ -12,7 +13,6 @@ Neue Features:
     
 - Um die Benachrichtigungen nützlicher zu machen gibt es nun auch einen "System Tray" der im Hintergrund läuft und in der Taskleiste sichtbar ist
 - Beim Secret Chat® System Tray gibt es nun ein Menü
-- Der System Tray lässt sich nun ausblenden
 - Aktive Nutzer werden in die Liste Aktiv eingetragen, Benutzer die Secret Chat® nur im Hintergrund haben gelten als abwesend
 - Eigene Nachrichten werden Hellblau hervorgehoben
 - Account kann nun gelöscht werden, sobald man nicht mehr möchte, dass seine Mac-Adresse online (aber natürlich nicht öffentlich) gespeichert wird
@@ -28,6 +28,7 @@ Neue Features:
 
 Fehlerbehebungen: 
 
+- System Tray bugs behoben
 - Bei leeren Nachrichten kommt keine MessageBox, sondern es passiert garnichts
 - Bei Internet Problemen stürzt das Proggramm nicht sofort ab, sondern die Probleme werden erkannt und der Nutzer wird informiert
 - Es kann nur eine Instanz von Secret Chat® geöffnet werden, um Fehler zu vermeiden
