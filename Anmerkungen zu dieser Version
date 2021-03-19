@@ -1,5 +1,7 @@
 Neue Features:
 
+- Es wird nun in der Taskleiste angezeigt, wieviele ungelesene Nachrichten gesendet wurden.
+- Emojis unterstützen nun Farben!
 - Wer aktuell schreibt ist nun sichtbar!
 - Dark und light mode!!!
 - Profilbilder!!! Beantrage eine Verifizierung in den Einstellungen, nachdem du vertifiziert bist kannst du dein Profilbild ändern, bitte beachten: das Profilbild darf nicht größer als 200KB sein.
@@ -29,7 +31,7 @@ Neue Features:
 Fehlerbehebungen: 
 
 - System Tray bugs behoben
-- Bei leeren Nachrichten kommt keine MessageBox, sondern es passiert garnichts
+- Bei leeren Nachrichten kommt keine Meldung, es wird nun ignoriert
 - Bei Internet Problemen stürzt das Proggramm nicht sofort ab, sondern die Probleme werden erkannt und der Nutzer wird informiert
 - Es kann nur eine Instanz von Secret Chat® geöffnet werden, um Fehler zu vermeiden
 - Fehlerbehebungen bei der Namensänderung
