@@ -31,6 +31,8 @@ Neue Features:
 
 Fehlerbehebungen: 
 
+- Profilbild wird bei allen Nutzern nun zurückgesetzt statt nur Lokal.
+- Man wird nicht mehr noch zusätzlich mit seinem alten Namen in den Online/Abwesenheits Listen, nachdem man seinen Namen geändert hat.
 - System Tray bugs behoben
 - Bei leeren Nachrichten kommt keine Meldung, es wird nun ignoriert
 - Bei Internet Problemen stürzt das Proggramm nicht sofort ab, sondern die Probleme werden erkannt und der Nutzer wird informiert
