@@ -31,6 +31,7 @@ Neue Features:
 
 Fehlerbehebungen: 
 
+- Secret Chat stürzt nun nicht mehr ab, wenn eine Nachricht gesendet wird während das Programm gestartet wird.
 - Profilbild wird bei allen Nutzern nun zurückgesetzt statt nur Lokal.
 - Man wird nicht mehr noch zusätzlich mit seinem alten Namen in den Online/Abwesenheits Listen, nachdem man seinen Namen geändert hat.
 - System Tray bugs behoben
