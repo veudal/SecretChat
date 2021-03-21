@@ -1,5 +1,7 @@
 Neue Features:
 
+- Verbessertes Design.
+- ToolTips hinzugefügt um mehr Informationen und Klarheit zu übergeben (z.B. auch nach kopierten Nachrichten).
 - Es wird ab sofort angezeigt, ab wo es Neue Nachrichten sind.
 - Es wird nun in der Taskleiste, sowohl auch auf dem "Neue Nachrichtne" Knopf angezeigt, wieviele ungelesene Nachrichten gesendet wurden.
 - Emojis unterstützen nun Farben!
@@ -31,6 +33,8 @@ Neue Features:
 
 Fehlerbehebungen: 
 
+- Performanz verbesserungen.
+- Nachrichten unterstützen nun Zeitzonen.
 - Wer aktuell schreibt unterstützt nun verschiedene Zeitzonen.
 - Secret Chat stürzt nun nicht mehr ab, wenn eine Nachricht gesendet wird während das Programm gestartet wird.
 - Profilbild wird bei allen Nutzern nun zurückgesetzt statt nur Lokal.
