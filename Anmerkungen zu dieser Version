@@ -1,3 +1,4 @@
+
 Neue Features:
 
   Version 1.8: 
@@ -25,7 +26,8 @@ Neue Features:
    - Account kann nun gelöscht werden, sobald man nicht mehr möchte, dass seine Mac-Adresse online gespeichert wird.
    - Dark und light mode!
    - Um die Benachrichtigungen nützlicher zu machen gibt es nun auch einen "System Tray" der im Hintergrund läuft und in der Taskleiste sichtbar ist
-   - Profilbilder!!! Beantrage eine Verifizierung in den Einstellungen, nachdem du vertifiziert bist kannst du dein Profilbild ändern, bitte beachten: das Profilbild darf nicht größer als 200KB sein.
+   - Profilbilder!!! Beantrage eine Verifizierung in den Einstellungen, nachdem du vertifiziert bist kannst du dein Profilbild ändern, bitte beachten: 
+     das Profilbild darf nicht größer als 200KB sein.
    
   Version 1.5:
    - Ein Ladebildschirm/Splashscreen wurde hinzugefügt
