@@ -7,7 +7,9 @@ Secret Chat ist eine Möglichkeit sich mit anderen zu unterhalten:
 - Secret Chat ist unter 20 MB groß!
 
 Secret Chat Vorschau:
+
   ![image](https://user-images.githubusercontent.com/62218506/113340051-b1c0a000-932b-11eb-8082-bb6c9303cd1d.png)
+
 
 Secret Chat kann hier heruntergeladen werden: 
   https://github.com/SagMeinenNamen/SecretChat/blob/main/SecretChat.exe
