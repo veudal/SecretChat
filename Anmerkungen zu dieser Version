@@ -1,6 +1,18 @@
 
 Neue Features:
 
+  Version 1.9:
+    - Kompletter Dark/Light-Mode Support.
+    - Übersichtleres Namensfenster.
+    - Geräusche können ausgestellt werden.
+    - Authentifizierungs-Code für mehr Sicherheit.
+    - Es ist nun eine Option zum beenden von Secret Chat in den Einstellungen.
+    - Benachrichtigungen können detailierter eingestellt werden je nach Gebrauch.
+    - @Erwähnungen werden nun untersützt.
+    - Neues Einstellungfenster-Design.
+    - Info-Boxen untersützen nun Hell- und Dunkelmodus, je nach Deinen Windows-Einstellungen.
+    
+    
   Version 1.8: 
    - Einstellungen sind nun übersichtlicher und die Soundskönnen an/aus gestellt werden.
    - ToolTips hinzugefügt um mehr Informationen und Klarheit zu übergeben (z.B. bei kopierten Nachrichten).
@@ -46,6 +58,8 @@ Neue Features:
 
 Fehlerbehebungen (seit Version 1.0): 
 
+   - Absturz beim Start von Secret Chat wurde behoben.
+   - Sicherheitslücken wurden behoben (unteranderem durch Code Authentifizierung).
    - Hintergrund Datenverkehr erheblich verringert.
    - Performanz verbesserungen.
    - Nachrichten unterstützen nun Zeitzonen.
