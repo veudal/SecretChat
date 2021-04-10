@@ -1,0 +1,312 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar" xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf" x:Class="SecretChat.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow"  Height="450" Width="800"  Closing="Window_Closing_1"  Activated="Window_Activated_1" Deactivated="Window_Deactivated" Loaded="Window_Loaded" MouseEnter="Window_MouseEnter" Initialized="Window_Initialized" >
+    <Window.DataContext>
+        <Window/>
+    </Window.DataContext>
+    <Window.Resources>
+        <SolidColorBrush x:Key="SelectedBackgroundBrush" Color="Transparent" />
+        <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" />
+    </Window.Resources>
+    <Grid x:Name="Chat" Background="#FF2D2D30"  >
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <tb:TaskbarIcon x:Name="SystemTray"
+                    Visibility="Hidden"
+                    ToolTipText="Secret Chat"
+                    IconSource="pack://application:,,,/Resources/myIcon.ico"
+                    MenuActivation="LeftOrRightClick"
+                    PopupActivation="DoubleClick" TrayLeftMouseUp="SecretChat_TrayLeftMouseUp" TrayRightMouseUp="SecretChat_TrayRightMouseUp"
+      />
+        <TextBox x:Name="chatbox" HorizontalAlignment="Stretch" AcceptsReturn="False" Height="Auto" TextWrapping="Wrap" VerticalAlignment="Center" Background="#FF444448" BorderBrush="{x:Null}" Foreground="White" FontSize="30" Grid.Row="7" Grid.ColumnSpan="6"  Text="" Margin="19,4.429,0.2,4.371" SelectionBrush="#FF246FCD" KeyUp="Chatbox_KeyUp" GotKeyboardFocus="Chatbox_GotKeyboardFocus"  TextChanged="Chatbox_TextChanged_1" KeyDown="Chatbox_KeyDown">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Style.Resources>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <ListView x:Name="list"  Background="{x:Null}" Foreground="LightGray" BorderBrush="{x:Null}" Grid.RowSpan="7" Grid.ColumnSpan="7"  Margin="0,0,78.4,33.571" FontSize="18" Loaded="List_Loaded" ScrollViewer.ScrollChanged="DtGrid_ScrollChanged" SelectionChanged="List_SelectionChanged" LostFocus="List_LostFocus"  >
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="SnapsToDevicePixels" Value="true"/>
+                    <Setter Property="OverridesDefaultStyle" Value="true"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border Name="Border"  Padding="2" SnapsToDevicePixels="true" Background="Transparent">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="true">
+                                        <Setter TargetName="Border" Property="Background" Value="{StaticResource SelectedBackgroundBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="true">
+                                        <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2" >
+                        <StackPanel Orientation="Horizontal"  >
+                            <Image x:Name="pictureBox" Visibility="{Binding MessageOrInfo}" Source="{Binding User.Picture, Mode = OneWay}" Height="32" Width="32" Stretch="Fill" VerticalAlignment="Top"/>
+                            <Rectangle Width="10" Fill="Transparent"/>
+                            <TextBlock x:Name="MessageBlock" Visibility="{Binding MessageOrInfo}" Height="Auto" Width="Auto" Text="{Binding endMessage}"  TextWrapping="Wrap" Background="Transparent" Foreground="{Binding TextColor}"  />
+                            <emoji:TextBlock x:Name="MessageBlockMessage"  TextAlignment="{Binding LeftOrCenter}"  Height="Auto" Width="1200" Text="{Binding Message}"  TextWrapping="Wrap" Background="Transparent" Foreground="{Binding TextColor2}" TextDecorations="{Binding UnderlinedOrNot}" >
+                            </emoji:TextBlock>
+
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListView>
+        <TextBox x:Name="defaultChatboxText" Text="Nachricht eingeben"  FontSize="23" VerticalAlignment="Center" Panel.ZIndex="1" Grid.ColumnSpan="6" Margin="14,6.429,0.2,4.371" Grid.Row="7" BorderThickness="0" Foreground="#FF898989"  Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Height="42" GotKeyboardFocus="DefaultChatboxText_GotKeyboardFocus">
+
+        </TextBox>
+        <Button x:Name="sendButton" ToolTip="Nachricht senden."  Click="Button_Click" Grid.Column="6"  Grid.Row="7" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF014EE7" FontSize="38" HorizontalAlignment="Left" Width="52" Margin="24.8,3.8,0,9" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF2D2D30" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FF2D2D30" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+            <Image Height="42" Source="pack://application:,,,/SecretChat;component/resources/send message.png" Stretch="Fill" Width="46"/>
+        </Button>
+
+        <ListView x:Name="Typing"  Grid.ColumnSpan="7" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Hidden" SelectionChanged="ListView_SelectionChanged"  HorizontalAlignment="Stretch" BorderThickness="0.5" Height="33" Margin="0,0,78,52.714" VerticalAlignment="Center" Background="{x:Null}" Foreground="#FFB4B2B2" BorderBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" Grid.Row="6" Grid.RowSpan="2">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="SnapsToDevicePixels" Value="true"/>
+                    <Setter Property="OverridesDefaultStyle" Value="true"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border Name="Border"  Padding="2" SnapsToDevicePixels="true" Background="Transparent">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="true">
+                                        <Setter TargetName="Border" Property="Background" Value="{StaticResource SelectedBackgroundBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="true">
+                                        <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel IsItemsHost="True" Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate >
+                <DataTemplate >
+                    <Grid Margin="0,2 ">
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding Visibility}">
+                            <TextBlock Text="{Binding userName}" Background="{x:Null}" Foreground="{Binding TextColor}" FontSize="19" />
+                            <TextBlock Text=" schreibt"  Background="{x:Null}" Foreground="{Binding TextColor}" FontSize="19" />
+                            <TextBlock Text=" ."  Background="{x:Null}" Foreground="{Binding TextColor}" FontSize="19" FontWeight="{Binding Dot1Font}"  />
+                            <TextBlock  Text=" ."  Background="{x:Null}" Foreground="{Binding TextColor}" FontSize="19" FontWeight="{Binding Dot2Font}" />
+                            <TextBlock Text=" ."   Background="{x:Null}" Foreground="{Binding TextColor}" FontSize="19" FontWeight="{Binding Dot3Font}" />
+                            <TextBlock  Background="{x:Null}" Width="50" />
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListView>
+        <Button x:Name="settings" ToolTip="Einstellungen öffnen." Grid.Column="7" HorizontalAlignment="Right" Height="51" VerticalAlignment="Top" Width="55" Click="Settings_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Image Height="40" Source="pack://application:,,,/SecretChat;component/resources/Settings.png" Stretch="Fill" Width="40"/>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF333337" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FF333337" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Canvas x:Name="UserStatusGrid" Grid.ColumnSpan="2" Grid.Column="6" HorizontalAlignment="Right" Height="366" Margin="20.8,2,-0.4,0" Grid.RowSpan="7" VerticalAlignment="Top" Width="178">
+            <TextBlock HorizontalAlignment="Center" ToolTip="Aktuell aktive Benutzer." TextAlignment="Center"  Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" FontSize="20" FontWeight="Bold" Background="#FF88FF69" Text="Aktiv:"  Foreground="Black" Canvas.Top="51" Canvas.Left="9"/>
+            <ListView x:Name="OnlineUsers" ScrollViewer.HorizontalScrollBarVisibility="Hidden" HorizontalAlignment="Right" BorderThickness="0.5" Height="118" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFE0E0E0" BorderBrush="#FF5EDF60" Width="169" Canvas.Left="9" Canvas.Top="74">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="SnapsToDevicePixels" Value="true"/>
+                        <Setter Property="OverridesDefaultStyle" Value="true"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <Border Name="Border"  Padding="2" SnapsToDevicePixels="true" Background="Transparent">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="true">
+                                            <Setter TargetName="Border" Property="Background" Value="{StaticResource SelectedBackgroundBrush}"/>
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="false">
+                                            <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
+                                        </Trigger>
+                                        <Trigger Property="IsMouseOver" Value="true">
+                                            <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Orientation="Horizontal">
+                                <Image x:Name="picture" Source="{Binding User.Picture, Mode = OneWay}" Height="32" Width="32" Stretch="Fill"/>
+                                <TextBlock Text="{Binding userName}" Background="{x:Null}" Foreground="{Binding TextColor}" Width="130" FontSize="20" TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListView>
+            <TextBlock HorizontalAlignment="Center" ToolTip="Aktuelle inaktive Benutzer, bei denen Secret Chat® im Hintergrund läuft."  Height="24"  VerticalAlignment="Bottom" Width="168" FontSize="20" TextAlignment="Center"  FontWeight="Bold" Background="#FFED8542" Text="Abwesend:"  Foreground="Black" Canvas.Left="10" Canvas.Top="202"/>
+            <ListView x:Name="OnlineUsers_Copy" ScrollViewer.HorizontalScrollBarVisibility="Hidden" HorizontalAlignment="Stretch"  BorderThickness="0.5" Height="140" VerticalAlignment="Stretch" Background="{x:Null}" Foreground="#FFE0E0E0" BorderBrush="#FFED8542" Canvas.Left="9" Width="169" Canvas.Top="226">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="SnapsToDevicePixels" Value="true"/>
+                        <Setter Property="OverridesDefaultStyle" Value="true"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <Border Name="Border"  Padding="2" SnapsToDevicePixels="true" Background="Transparent">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="true">
+                                            <Setter TargetName="Border" Property="Background" Value="{StaticResource SelectedBackgroundBrush}"/>
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="false">
+                                            <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
+                                        </Trigger>
+                                        <Trigger Property="IsMouseOver" Value="true">
+                                            <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Orientation="Horizontal">
+                                <Image x:Name="pictureAbsent2" Source="{Binding AbsentUser.Picture, Mode = OneWay}" Height="32" Width="32" Stretch="Fill"/>
+                                <TextBlock Text="{Binding userName}" Background="{x:Null}" Foreground="{Binding TextColor}" TextWrapping="Wrap" Width="120" FontSize="20" />
+                            </StackPanel>
+                            <!--<ProgressBar Grid.Column="1" Minimum="0" Maximum="100" Value="{Binding Completion}" />-->
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListView>
+        </Canvas>
+        <Grid x:Name="NewMessagesGrid" Grid.Column="6" HorizontalAlignment="Left" Height="46" Margin="98.8,6.4,-0.4,0.4" Grid.Row="7" VerticalAlignment="Center" Width="100" Grid.ColumnSpan="2">
+            <Button x:Name="NewMessagesbutton" ToolTip="Nach unten scrollen." Panel.ZIndex="2" HorizontalAlignment="Left" Width="100" Margin="0,2,0,0" Click="Button_Click_1" FontSize="35" FontWeight="Bold" Background="{x:Null}" Foreground="#FFFF5301" BorderBrush="{x:Null}">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Transparent" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="Transparent" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Image x:Name="NewMsgImg" Height="40" Source="pack://application:,,,/SecretChat;component/resources/newmsgbtn.png" Stretch="Fill" Width="37"/>
+            </Button>
+            <TextBlock x:Name="NotificationAmount" Panel.ZIndex="1" Text="" Margin="60,25,16,4" Foreground="White" FontWeight="Bold" FontSize="14" TextAlignment="Center"/>
+            <Ellipse Fill="OrangeRed" HorizontalAlignment="Left" Height="19" Margin="62,26,0,0" Stroke="White" VerticalAlignment="Top" Width="19" StrokeThickness="0.2"/>
+        </Grid>
+    </Grid>
+</Window>

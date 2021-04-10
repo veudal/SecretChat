@@ -1,0 +1,728 @@
+﻿<Window x:Class="SecretChat.Settings" Background="Transparent" AllowsTransparency="True"
+        
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:modern="http://schemas.modernwpf.com/2019"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="800" ResizeMode="NoResize" Closing="Window_Closing"  WindowStyle="None" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ComboBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Menu.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.RadioButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Shadows.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ToggleButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Font.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ListBox.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Name="Grid" Background="#F92D2D30" Margin="5,1,5,5">
+        <Grid.Effect>
+            <DropShadowEffect RenderingBias="Quality" Direction="315" ShadowDepth="1" BlurRadius="4" FrameworkElement.FlowDirection="RightToLeft"/>
+        </Grid.Effect>
+
+        <!--<Button HorizontalAlignment="Left" Height="63" Margin="726,10,0,0" VerticalAlignment="Top" Width="64" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click">
+            <Image Source="Image3.png" Stretch="Fill" Height="64" Width="64"/>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF2D2D30" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FF333337" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>-->
+        <Button x:Name="ChangeNameButton_Copy" Content="←" HorizontalAlignment="Left" Height="99" Margin="10,-18,0,0" VerticalAlignment="Top" Width="65" Click="Close" ToolTip="Zurück" Background="{x:Null}" FontSize="90" BorderBrush="{x:Null}" Foreground="#FFCACACA" FontWeight="Bold">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF2D2D30" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FF333337" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+
+
+
+
+
+
+        <Image Height="30" x:Name="sun" Source="pack://application:,,,/SecretChat;component/resources/mbrisun2_99594.png" Stretch="Fill" Width="30" Margin="51,200,709,213.6"/>
+        <Image Height="30" x:Name="moon" Source="pack://application:,,,/SecretChat;component/resources/dark_mode_half_moon_icon_176153.png" Stretch="Fill" Width="30" Margin="52,267,708,146.6"/>
+        <Button  Margin="85,191,664,146.6" ToolTip="Zwischen Dunkel- und Hellmodus wechseln." Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}"  Click="Button_Click_2" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF2D2D30" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Transparent" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+            <Slider x:Name="DarkLightSlider" HorizontalAlignment="Right" Height="58" VerticalAlignment="Top" Width="22" Maximum="1" Orientation="Vertical" ValueChanged="Slider_ValueChanged_1" SmallChange="1" IsEnabled="False" Foreground="{x:Null}">
+                <Slider.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.MergedDictionaries>
+                            <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                            <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                        </ResourceDictionary.MergedDictionaries>
+                    </ResourceDictionary>
+                </Slider.Resources>
+            </Slider>
+        </Button>
+        <Image x:Name="moon4LightTheme" Margin="52,266,708,143.6" Source="pack://application:,,,/SecretChat;component/resources/moon4LightTheme.png" Stretch="Fill"/>
+        <Image x:Name="sun4LightTheme" Margin="51,198,709,211.6" Source="pack://application:,,,/SecretChat;component/resources/sun4LightTheme.png" Stretch="Fill"/>
+        <ListView Margin="176,10,0,0.6" Background="{x:Null}" BorderBrush="Transparent" ScrollViewer.PanningRatio="0.00001">
+            <TextBlock x:Name="EinstellungenText" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="BENUTZEREINSTELLUNGEN" VerticalAlignment="Top" Width="289" Foreground="White" FontSize="15"/>
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon x:Name="AccountIcon" Kind="Account" Height="55" Width="55" Foreground="LightGray"/>
+                <Rectangle Fill="Transparent" Width="20"/>
+                <TextBlock x:Name="MeinAccount" HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" Text="Mein Account" VerticalAlignment="Top" Width="246" Foreground="White" FontSize="40"/>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <Button x:Name="ChangeNameButton" Content="Namen ändern"  HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="193" Click="ChangeNameButton_Click" Background="#FF6E7379" FontSize="20" FontWeight="Bold" Margin="40, 0" Foreground="White" BorderBrush="{x:Null}">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <Button x:Name="PictureButton" Content="Verifizierung beantragen" HorizontalAlignment="Left" Height="45" Margin="40, 0"  VerticalAlignment="Top" Width="232" Click="PictureButton_Click" Background="#FF6E7379" Foreground="White" FontSize="18" FontWeight="Bold">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <Button x:Name="DefaultPicture" Foreground="White" Content="Profilbild zurücksetzen" HorizontalAlignment="Left" Height="45" Margin="40,0,0,0" VerticalAlignment="Top" Width="232" Background="#FF6E7379" FontSize="20" FontWeight="Bold" Click="DefaultPicture_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="15"/>
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon x:Name="CustomIcon" Kind="AccountStar" Height="55" Width="55" Foreground="LightGray"/>
+                <Rectangle Fill="Transparent" Width="20"/>
+                <TextBlock x:Name="Personalisierung" HorizontalAlignment="Left" Height="55" TextWrapping="Wrap" Text="Personalisierung" VerticalAlignment="Top" Width="292" Foreground="White" FontSize="40"/>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Button x:Name="changeTimer" Content="Aktualliesierungszeit ändern" HorizontalAlignment="Left" Height="45" Margin="40,0,0,0" VerticalAlignment="Top" Width="285" Click="ChangeTimer_Click" ToolTip="Alles wird nach diesem Intervall aktualisiert." Background="#FF6E7379" Foreground="White" FontSize="20" FontWeight="Bold">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <Button x:Name="ShortcutButton" Content="Desktop Verknüpfung erstellen" HorizontalAlignment="Left" Height="45" Margin="40,00,0,0" VerticalAlignment="Top" Width="316" Click="ShortcutButton_Click" Background="#FF6E7379" Foreground="White" FontSize="20" FontWeight="Bold">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <StackPanel Orientation="Horizontal" Margin="40, 00">
+
+                <CheckBox  Name="Links" Click="Links_Click" Height="14" Width="17">
+                    <CheckBox.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <materialDesign:BundledTheme BaseTheme="Inherit" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </CheckBox.Resources>
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="3" ScaleY="3" />
+                    </CheckBox.LayoutTransform>
+
+                </CheckBox>
+                <TextBlock x:Name="LinksText" HorizontalAlignment="Left" Height="54" TextWrapping="Wrap" VerticalAlignment="Top" Width="286" Foreground="White" FontSize="30" Text="Warnungen bei Links"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="40,20, 0,0">
+                <StackPanel.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.MergedDictionaries>
+                            <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                            <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                        </ResourceDictionary.MergedDictionaries>
+                    </ResourceDictionary>
+                </StackPanel.Resources>
+                <CheckBox  Name="AutoStart" Click="AutoStart_Click" Width="17" Height="14">
+                    <CheckBox.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </CheckBox.Resources>
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="3" ScaleY="3" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <TextBlock x:Name="AutostartText" HorizontalAlignment="Left" Height="54"  TextWrapping="Wrap" VerticalAlignment="Top" Width="277" Foreground="White" FontSize="30" Text="Autostart"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40,20, 0,0">
+
+                <CheckBox  Name="Sounds" Width="17" Height="14" Click="Sounds_Click">
+                    <CheckBox.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </CheckBox.Resources>
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="3" ScaleY="3" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <TextBlock x:Name="SoundsText" HorizontalAlignment="Left" Height="54"  TextWrapping="Wrap" VerticalAlignment="Top" Width="277" Foreground="White" FontSize="30" Text="Geräusche"/>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon x:Name="NotificationIcon" Kind="BellNotification" Height="55" Width="55" Foreground="LightGray"/>
+                <Rectangle Fill="Transparent" Width="20"/>
+                <TextBlock x:Name="Notification" HorizontalAlignment="Left" Height="55" TextWrapping="Wrap" Text="Benachrichtigungen" VerticalAlignment="Top" Width="359" Foreground="White" FontSize="40"/>
+                <Button  VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_5" >
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF2D2D30" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#FF333337" TargetName="Border" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                    <materialDesign:PackIcon x:Name="Info" Kind="InfoCircleOutline" Height="25" Width="25" Foreground="LightGray"/>
+                </Button>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <StackPanel Orientation="Horizontal" Margin="40,0">
+                <CheckBox  x:Name="Benachrichtigungen" Click="Benachrichtigungen_Click" Height="14" Width="17" >
+                    <CheckBox.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </CheckBox.Resources>
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="3" ScaleY="3" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <TextBlock x:Name="BenachrichtigungenText" HorizontalAlignment="Left" Height="54"  TextWrapping="Wrap" VerticalAlignment="Top" Width="357" Foreground="White" FontSize="30" Text="Alle Benachrichtigungen"/>
+                <Button  VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_3" >
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF2D2D30" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#FF333337" TargetName="Border" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                    <materialDesign:PackIcon x:Name="Info1" Kind="InfoCircleOutline" Height="25" Width="25" Foreground="LightGray"/>
+                </Button>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <StackPanel Orientation="Horizontal" Margin="40,0">
+                <CheckBox  x:Name="Mentions" Click="Mentions_Click" Height="14" Width="17" >
+                    <CheckBox.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="LightBlue" SecondaryColor="DeepPurple" />
+                                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </CheckBox.Resources>
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="3" ScaleY="3" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <TextBlock x:Name="MentionsText" HorizontalAlignment="Left" Height="54"  TextWrapping="Wrap" VerticalAlignment="Top" Width="357" Foreground="White" FontSize="30" Text="Erwähnungen"/>
+                <Button  VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_4" >
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF2D2D30" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#FF333337" TargetName="Border" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                    <materialDesign:PackIcon x:Name="Info2" Kind="InfoCircleOutline" Height="25" Width="25" Foreground="LightGray"/>
+                </Button>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon  x:Name="DangerIcon" Kind="CarBrakeAlert" Height="55" Width="55" Foreground="LightGray" />
+                <Rectangle Fill="Transparent" Width="20"/>
+                <TextBlock x:Name="Gefahrenzone" HorizontalAlignment="Left" Height="55" TextWrapping="Wrap" Text="Gefahrenzone" VerticalAlignment="Top" Width="292" Foreground="White" FontSize="40"/>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <Button Content="Account löschen" Margin="40, 0" Height="48" Background="#FFE55E5E" BorderBrush="{x:Null}" Foreground="Black" FontWeight="Bold" ToolTip="Deinen Secret Chat® Account löschen." FontSize="20" Click="Button_Click_1" Width="171">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FFD84040" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FFD84040" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Button x:Name="exitBtn" Margin="40, 20" Content="Secret Chat beenden" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="234" Background="#FFE55E5E" Foreground="Black" FontSize="20" FontWeight="Bold" Click="exitBtn_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FFD84040" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FFD84040" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Button x:Name="restartBtn" Margin="40, 20" Content="Secret Chat neustarten" HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="234" Background="#FFE55E5E" Foreground="Black" FontSize="20" FontWeight="Bold" Click="RestartBtn_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FFD84040" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FFD84040" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon x:Name="InfoIcon" Kind="InformationOutline" Width="55" Height="55" Foreground="LightGray"/>
+                <Rectangle Fill="Transparent" Width="20"/>
+                <TextBlock x:Name="Informationen" HorizontalAlignment="Left" Height="55" TextWrapping="Wrap" VerticalAlignment="Top" Width="362" Foreground="White" FontSize="40"><Run Text="Infos"/><Run Text=" zu Secret Chat"/></TextBlock>
+            </StackPanel>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+
+            <Button x:Name="Credits" Content="Anerkennungen" HorizontalAlignment="Left" Height="45" Margin="40,0,0,0" VerticalAlignment="Top" Width="200" ToolTip="Für Secret Chat Mitwirkende Personen" Background="#FF6E7379" Foreground="White" FontSize="20" FontWeight="Bold" Click="Credits_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+            <Rectangle Fill="Transparent" Height="10"/>
+
+            <Button x:Name="SCProject" Content="Projekt Seite" HorizontalAlignment="Left" Height="45" Margin="40,0,0,0" VerticalAlignment="Top" Width="150" ToolTip="Alle Informationen über Secret Chat" Background="#FF6E7379" Foreground="White" FontSize="20" FontWeight="Bold" Click="SCProject_Click" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Style.Resources>
+                        <Setter Property="Background" Value="#FF2D2D30" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FF626971" TargetName="Border" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="1" RenderingBias="Quality"/>
+                </Button.Effect>
+            </Button>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="SnapsToDevicePixels" Value="true"/>
+                    <Setter Property="OverridesDefaultStyle" Value="true"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border Name="Border"  Padding="2" SnapsToDevicePixels="true" Background="Transparent">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="true">
+                                        <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Foreground" Value="Transparent"/>
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="true">
+                                        <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListView>
+        <Button x:Name="closeBtn" Content="×" FontSize="35" HorizontalAlignment="Left" Height="42" Margin="741,0,0,0" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Top" Width="41" Foreground="White" FontWeight="Bold" Click="closeBtn_Click">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF333337" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFDC3032" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button x:Name="helpBtn" Content="?" FontSize="30" HorizontalAlignment="Left" Height="47" Margin="700,0,0,0" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Top" Width="37" Foreground="White" FontWeight="Bold" Click="helpBtn_Click">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF333337" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FF57575D" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>
