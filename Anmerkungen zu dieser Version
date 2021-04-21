@@ -7,6 +7,8 @@ Neue Features:
     - Design update
     - Emotes: pog, omegalul, sadge, robbe, ez & mern (tippe diese Stichwörter am Ende um den jeweiligen Emote zu nutzen.
     - Kompaktere & besser lesbare Nachrichten.
+    - Es wird nun automatisch runtergescrollt wenn neue Nachrichten ankommen, jedoch nur wenn die App aktiv ist und die Scrollbar sich ganz
+      unten befindet (um nicht ausversehen Nachrichten zu verpassen). 
     - Startvorgang deutlich beschleunigt.
     - Ab jetzt einstellbar ob Kaomojis in Emojis umgewandelt werden sollen (z.B.    :)  => 🙂   ).
 
@@ -67,6 +69,8 @@ Neue Features:
 
 Fehlerbehebungen (seit Version 1.0): 
 
+   - Leistungsverbesserungen
+   - Problem mit "Ungültiger Authentizifierung" behoben.
    - Absturz beim Start von Secret Chat wurde behoben.
    - Sicherheitslücken wurden behoben (unteranderem durch Code Authentifizierung).
    - Hintergrund Datenverkehr erheblich verringert.
