@@ -8,7 +8,7 @@ Secret Chat ist eine Möglichkeit sich mit anderen zu unterhalten:
 
 Secret Chat Vorschau:
 
-  ![image](https://user-images.githubusercontent.com/62218506/113340051-b1c0a000-932b-11eb-8082-bb6c9303cd1d.png)
+ ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
 
 Secret Chat kann hier heruntergeladen werden: 
