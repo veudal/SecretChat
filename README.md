@@ -1,14 +1,17 @@
 ![3](https://user-images.githubusercontent.com/62218506/117016251-cf9a6f80-acf2-11eb-867c-507cc979245e.png)
 
-***[ENGLISH VERSION BELOW]***
+
 
 # [Deutsche Version]
+***[ENGLISH VERSION BELOW]***
+
 
 # Was ist Secret Chat
 
 Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
 
  ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
+
 
 
 # Warum Secret Chat
@@ -21,6 +24,7 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 - Secret Chat ist unter 20 MB groß!
 - Es ist sehr effizient, sowohl mit dem CPU Verbrauch als auch der Internet-Nutzung.
 
+
 # Erste Schritte 
   
 - Secret Chat braucht kein Installations Programm
@@ -29,6 +33,7 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 
 - Um alle Funktionen von Secret Chat kennzulernen besuche die Anmerkungen zu dieser Version Seite
   (https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version).
+  
   
 # Weitere Informationen zu Secret Chat  
   
@@ -44,6 +49,9 @@ Nutzungsbedingungen:
 
 
 
+
+
+
 # [ENGLISH VERSION]
 
 # What is Secret Chat
@@ -51,6 +59,8 @@ Nutzungsbedingungen:
 Secret Chat is a free online instant messaging service that was created especially for young people.
 
  ! [image] (https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
+
+
 
 
 # Why Secret Chat
@@ -63,6 +73,9 @@ Secret Chat is a free online instant messaging service that was created especial
 - Secret Chat is under 20MB!
 - It is very efficient in terms of both CPU consumption and internet usage.
 
+
+
+
 # Getting started
   
 - Secret Chat does not need an installation program
@@ -71,6 +84,9 @@ Secret Chat is a free online instant messaging service that was created especial
 
 - To get to know all the features of Secret Chat visit the release notes page
   (https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version).
+  
+  
+  
   
 # More information on Secret Chat
   
