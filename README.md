@@ -4,8 +4,8 @@
  
 # [Deutsche Version]
 ***[ENGLISH VERSION BELOW]***
-
-
+<br />
+<br />
 # Was ist Secret Chat
 
 Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
