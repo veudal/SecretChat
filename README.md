@@ -7,7 +7,7 @@
 ***[ENGLISH VERSION BELOW]***
 # Was ist Secret Chat
 
-Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
+Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
 
  ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
@@ -32,7 +32,7 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 - Schon kann es losgehen. 
 
 
-# Weitere Informationen zu Secret Chat  
+# Über Secret Chat  
 
 - [Anmerkungen und Verlauf der Versionen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version)
   
@@ -50,7 +50,7 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 
 # What is Secret Chat
 
-Secret Chat is a free online instant messaging service that was created especially for young people.
+Short anwser: Secret Chat is a free online instant messaging service that was created especially for young people.
 
  ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
@@ -79,7 +79,7 @@ Secret Chat is a free online instant messaging service that was created especial
 
 
 
-# More information on Secret Chat
+# About Secret Chat
 
 - [Notes and history of the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version)
   
