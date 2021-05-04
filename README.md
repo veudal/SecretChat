@@ -28,24 +28,20 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 
 - Secret Chat braucht kein Installations Programm
 
-- Installiere die .exe Datei (https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und starte sie. Nun musst du nur deinen Nutzernamen angeben und einen Code   den du von mir erhälsts (einfach fragen) und schon kann es losgehen. 
+- Installiere die [.exe Datei](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und starte sie. Nun musst du nur deinen Nutzernamen angeben und einen Code   den du von mir erhälsts (einfach fragen) und schon kann es losgehen. 
 
-- Um alle Funktionen von Secret Chat kennzulernen besuche die Anmerkungen zu dieser Version Seite
-  (https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version).
+- Um alle Funktionen von Secret Chat kennzulernen besuche die [Anmerkungen zu dieser Version](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version).
 
 
 
 
 # Weitere Informationen zu Secret Chat  
 
-Anmerkungen und Verlauf der Versionen von Secret Chat:
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version
+- [Anmerkungen und Verlauf der Versionen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version)
   
-Datenschutz:
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung
+- [Datenschutz](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung)
   
-Nutzungsbedingungen:
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbediungen
+- [Nutzungsbedingungen](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbediungen)
 
 
 
@@ -58,8 +54,7 @@ Nutzungsbedingungen:
 # What is Secret Chat
 
 Secret Chat is a free online instant messaging service that was created especially for young people.
-
- ! [image] (https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
+ ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
 
 
@@ -81,21 +76,17 @@ Secret Chat is a free online instant messaging service that was created especial
 
 - Secret Chat does not need an installation program
 
-- Install the .exe file (https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and start it. Now you just have to enter your username and a code that you will  receive from me (just ask) and you're ready to go.
+- Install the [.exe file](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and start it. Now you just have to enter your username and a code that you will  receive from me (just ask) and you're ready to go.
 
-- To get to know all the features of Secret Chat visit the release notes page
-  (https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version).
+- To get to know all the features of Secret Chat visit the [release notes page](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version).
 
 
 
 
 # More information on Secret Chat
 
-Notes and history of the versions of Secret Chat:
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version
+- [Notes and history of the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version)
   
-Privacy:
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung
+ - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung)
   
-Terms of Use:
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzbediungen 
+ - [Terms of Use](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzbediungen)
