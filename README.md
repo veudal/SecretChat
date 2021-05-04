@@ -1,7 +1,7 @@
 ![3](https://user-images.githubusercontent.com/62218506/117016251-cf9a6f80-acf2-11eb-867c-507cc979245e.png)
-
-
-
+ 
+  
+ 
 # [Deutsche Version]
 ***[ENGLISH VERSION BELOW]***
 
