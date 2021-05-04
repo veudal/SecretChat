@@ -8,6 +8,7 @@
 # Was ist Secret Chat
 
 Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
+
  ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
 
@@ -26,13 +27,9 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 
 # Erste Schritte 
 
-- Secret Chat braucht kein Installations Programm
-
-- Installiere die [.exe Datei](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und starte sie. Nun musst du nur deinen Nutzernamen angeben und einen Code   den du von mir erhälsts (einfach fragen) und schon kann es losgehen. 
-
-- Um alle Funktionen von Secret Chat kennzulernen besuche die [Anmerkungen zu dieser Version](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version).
-
-
+- Installiere die [.exe Datei](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und starte sie. 
+- Nun musst du nur deinen Nutzernamen und einen Code angeben den du von mir erhälts (einfach fragen)
+- Schon kann es losgehen. 
 
 
 # Weitere Informationen zu Secret Chat  
@@ -54,6 +51,7 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 # What is Secret Chat
 
 Secret Chat is a free online instant messaging service that was created especially for young people.
+
  ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
 
@@ -74,11 +72,9 @@ Secret Chat is a free online instant messaging service that was created especial
 
 # Getting started
 
-- Secret Chat does not need an installation program
-
-- Install the [.exe file](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and start it. Now you just have to enter your username and a code that you will  receive from me (just ask) and you're ready to go.
-
-- To get to know all the features of Secret Chat visit the [release notes page](https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmeränke%20zu%20dieser%20Version).
+- Install the [.exe file](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and start it.
+- Now you just have to change your username and a code that you will receive from me (just ask).
+- Now you are ready to go. 
 
 
 
