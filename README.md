@@ -3,7 +3,7 @@
 
 
 
-# [Deutsche Version]
+## [Deutsche Version]
 ***[ENGLISH VERSION BELOW]***
 # Was ist Secret Chat
 
@@ -46,7 +46,7 @@ Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor alle
 
 
 
-# [ENGLISH VERSION]
+## [ENGLISH VERSION]
 
 # What is Secret Chat
 
