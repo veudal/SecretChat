@@ -1,4 +1,5 @@
-![Uploading 1.png…]()
+![1](https://user-images.githubusercontent.com/62218506/117015079-b513c680-acf1-11eb-9a91-9f54c4ad99b1.png)
+
 
 Secret Chat ist eine Möglichkeit sich mit anderen zu unterhalten:
 - Um Secret chat verwenden zu können brauchst Du KEINEN Account, du wirst über deinen Computer identifiziert. Durch Secret Chat kannst du mit Fremden oder Freunden öffentlich unterhalten wann immer Du willst.
