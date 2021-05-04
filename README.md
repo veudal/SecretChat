@@ -1,4 +1,8 @@
-![1](https://user-images.githubusercontent.com/62218506/117015292-db396680-acf1-11eb-9889-94cd2bacc1ac.png)
+![3](https://user-images.githubusercontent.com/62218506/117016251-cf9a6f80-acf2-11eb-867c-507cc979245e.png)
+
+Was ist Secret Chat
+
+Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
 
 Secret Chat ist eine Möglichkeit sich mit anderen zu unterhalten:
 - Um Secret chat verwenden zu können brauchst Du KEINEN Account, du wirst über deinen Computer identifiziert. Durch Secret Chat kannst du mit Fremden oder Freunden öffentlich unterhalten wann immer Du willst.
@@ -7,13 +11,8 @@ Secret Chat ist eine Möglichkeit sich mit anderen zu unterhalten:
 - Du kannst jederzeit deinen Account löschen
 - Secret Chat ist unter 20 MB groß!
 
-Secret Chat Vorschau:
-
  ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
 
-
-Secret Chat kann hier heruntergeladen werden: 
-  https://github.com/SagMeinenNamen/SecretChat/blob/main/SecretChat.exe
   
 Anmerkungen und Verlauf der Versionen von Secret Chat:
   https://github.com/SagMeinenNamen/SecretChat/blob/main/Anmerkungen%20zu%20dieser%20Version
