@@ -27,8 +27,8 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 # Erste Schritte 
 
-- Installiere die [.exe Datei](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und starte sie. 
-- Nun musst du nur deinen Nutzernamen und einen Code angeben den du von mir erhälts (einfach fragen)
+- Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und öffne die Datei. 
+- Nun musst du nur deinen Nutzernamen setzen und einen Code eingeben den du von mir erhälts (einfach fragen)
 - Schon kann es losgehen. 
 
 
@@ -72,8 +72,8 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 
 # Getting started
 
-- Install the [.exe file](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and start it.
-- Now you just have to change your username and a code that you will receive from me (just ask).
+- Start the [download here](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and open the file.
+- Now you just have to set your username and a code that you will receive from me (just ask).
 - Now you are ready to go. 
 
 
