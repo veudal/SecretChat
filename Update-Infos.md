@@ -2,32 +2,33 @@
 Neue Features:
 
   Version 2.0:
-    - Verschiedene Kanäle
-    - Freunde & Direktnachrichten
-    - Design update
-    - Auto-Update!
-    - Automatische Rechtschreibprüfung!
-    - Ab jetzt vom Startmenü startbar
-    - Emotes: pog, omegalul, sadge, robbe, ez, juergen, mern (tippe diese Stichwörter am Ende um den jeweiligen Emote zu nutzen) & ein zusätzlicher Easter-Egg Emote 
-    - Beim umbennen werden all deine gesendeten Nachrichten auf deinen neuen Namen "verschoben".
-    - Beim Account löschen werden all deine gesendeten Nachrichten, oder Nachrichten die an dich gerichtet sind/waren gelöscht.
-    - Kompaktere & besser lesbare Nachrichten.
-    - Nachrichten werden schneller verschickt.
-    - Es wird nun automatisch runtergescrollt wenn neue Nachrichten ankommen, jedoch nur wenn die App aktiv ist und die Scrollbar sich ganz
-      unten befindet (um nicht ausversehen Nachrichten zu verpassen). 
-    - Startvorgang etwas beschleunigt.
-    - Ab jetzt einstellbar ob Kaomojis in Emojis umgewandelt werden sollen (z.B.    :)  => 🙂   ).
+  - Verschiedene Kanäle
+  - Freunde & Direktnachrichten
+  - Design update
+  - Auto-Update
+  - Automatische Rechtschreibprüfung!
+  - Ab jetzt vom Startmenü startbar
+  - Emotes: pog, omegalul, sadge, robbe, ez, juergen, mern (tippe diese Stichwörter am Ende um den jeweiligen Emote zu nutzen) & ein zusätzlicher Easter-Egg Emote 
+  - Beim umbennen werden all deine gesendeten Nachrichten auf deinen neuen Namen "verschoben".
+  - Beim Account löschen werden all deine gesendeten Nachrichten, oder Nachrichten die an dich gerichtet sind/waren gelöscht.
+  - Kompaktere & besser lesbare Nachrichten.
+  - Nachrichten werden schneller verschickt.
+  - Es wird nun automatisch runtergescrollt wenn neue Nachrichten ankommen, jedoch nur wenn die App aktiv ist und die Scrollbar sich ganz
+    unten befindet (um nicht ausversehen Nachrichten zu verpassen). 
+  - Startvorgang etwas beschleunigt.
+  - Ab jetzt einstellbar ob Kaomojis in Emojis umgewandelt werden sollen (ein Beispiel :)  => 🙂 ).
+ 
 
   Version 1.9:
-    - Kompletter Dark/Light-Mode Support.
-    - Übersichtleres Namensfenster.
-    - Geräusche können ausgestellt werden.
-    - Authentifizierungs-Code für mehr Sicherheit.
-    - Es ist nun eine Option zum beenden von Secret Chat in den Einstellungen.
-    - Benachrichtigungen können detailierter eingestellt werden je nach Gebrauch.
-    - @Erwähnungen werden nun untersützt.
-    - Neues Einstellungfenster-Design.
-    - Info-Boxen untersützen nun Hell- und Dunkelmodus, je nach Deinen Windows-Einstellungen.
+  - Kompletter Dark/Light-Mode Support.
+  - Übersichtleres Namensfenster.
+  - Geräusche können ausgestellt werden.
+  - Authentifizierungs-Code für mehr Sicherheit.
+  - Es ist nun eine Option zum beenden von Secret Chat in den Einstellungen.
+  - Benachrichtigungen können detailierter eingestellt werden je nach Gebrauch.
+  - @Erwähnungen werden nun untersützt.
+  - Neues Einstellungfenster-Design.
+  - Info-Boxen untersützen nun Hell- und Dunkelmodus, je nach Deinen Windows-Einstellungen.
     
     
   Version 1.8: 
