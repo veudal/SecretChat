@@ -1,7 +1,7 @@
 
-Neue Features:
+##Neue Features:
 
-  Version 2.0:
+  #Version 2.0:
   - Verschiedene Kanäle
   - Freunde & Direktnachrichten
   - Design update
@@ -19,7 +19,7 @@ Neue Features:
   - Ab jetzt einstellbar ob Kaomojis in Emojis umgewandelt werden sollen (ein Beispiel :)  => 🙂 ).
  
 
-  Version 1.9:
+  #Version 1.9:
   - Kompletter Dark/Light-Mode Support.
   - Übersichtleres Namensfenster.
   - Geräusche können ausgestellt werden.
@@ -31,7 +31,7 @@ Neue Features:
   - Info-Boxen untersützen nun Hell- und Dunkelmodus, je nach Deinen Windows-Einstellungen.
     
     
-  Version 1.8: 
+  #Version 1.8: 
    - Einstellungen sind nun übersichtlicher und die Soundskönnen an/aus gestellt werden.
    - ToolTips hinzugefügt um mehr Informationen und Klarheit zu übergeben (z.B. bei kopierten Nachrichten).
    - Es wird ab sofort angezeigt, wo neue Nachrichten sind.
@@ -39,7 +39,7 @@ Neue Features:
    - Emojis unterstützen nun Farben!
    - Wer aktuell schreibt ist nun sichtbar!
    
-  Version 1.7:
+  #Version 1.7:
    - Einstellungen zur personalisierung wurden hinzugefügt :
        - Autostart ist jetzt einstellbar
        - Benachrichtigungen können an- oder ausgeschaltet werden
@@ -51,7 +51,7 @@ Neue Features:
    - Aktive Nutzer werden in die Liste Aktiv eingetragen, Benutzer die Secret Chat® nur im Hintergrund haben gelten als abwesend
    
    
-  Version 1.6:
+  #Version 1.6:
    - Es wird ein Symbol angezeigt sobald es neue Nachrichten gibt
    - Account kann nun gelöscht werden, sobald man nicht mehr möchte, dass seine Mac-Adresse online gespeichert wird.
    - Dark und light mode!
@@ -59,13 +59,13 @@ Neue Features:
    - Profilbilder!!! Beantrage eine Verifizierung in den Einstellungen, nachdem du vertifiziert bist kannst du dein Profilbild ändern, bitte beachten: 
      das Profilbild darf nicht größer als 200KB sein.
    
-  Version 1.5:
+  #Version 1.5:
    - Ein Ladebildschirm/Splashscreen wurde hinzugefügt
    - Eigene Nachrichten werden Hellblau hervorgehoben
    - Es wurden Sound-Effects hinzugefügt
    - Benachrichtigungen sind nun Verfügbar
    
-  Version 1.4:
+  #Version 1.4:
    - Version und Programm Informationen lassen sich in der rechten Ecke bei den Einstellungen durch einen klick ablesen
    - Nachrichten sind mit ↩ verschickbar
    - Durch senden einer eigenen Nachricht wird automatisch nach unten gescrollt
@@ -74,7 +74,7 @@ Neue Features:
 
 
 
-Fehlerbehebungen (seit Version 1.0): 
+##Fehlerbehebungen (seit Version 1.0): 
 
    - Leistungsverbesserungen
    - Problem mit "Ungültiger Authentizifierung" behoben.
