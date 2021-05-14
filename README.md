@@ -27,7 +27,7 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 # Erste Schritte 
 
-- Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) und öffne die Datei. 
+- Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat-Installer.exe) und öffne den installer um Secret Chat zu installieren. 
 - Nun musst du nur deinen Nutzernamen setzen und einen Code eingeben den du von mir erhälts (einfach fragen)
 - Schon kann es losgehen. 
 
@@ -36,9 +36,9 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 - [Update Informationen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos)
   
-- [Datenschutz](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung)
+- [Datenschutz](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
-- [Nutzungsbedingungen](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen)
+- [Nutzungsbedingungen](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen.md)
 
 
 
@@ -72,7 +72,7 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 
 # Getting started
 
-- Start the [download here](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat.exe) and open the file.
+- Start the [download here](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat-Installer.exe) and open the installer to install Secret Chat.
 - Now you just have to set your username and a code that you will receive from me (just ask).
 - Now you are ready to go. 
 
@@ -83,6 +83,6 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 
 - [Notes and the history about the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos)
   
- - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung)
+ - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
- - [Terms of Use](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen)
+ - [Terms of Use](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen.md)
