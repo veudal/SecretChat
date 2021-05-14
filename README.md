@@ -34,7 +34,7 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 # Über Secret Chat  
 
-- [Update Informationen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos)
+- [Update Informationen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos.md)
   
 - [Datenschutz](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
@@ -81,7 +81,7 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 
 # About Secret Chat
 
-- [Notes and the history about the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos)
+- [Notes and the history about the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos.md)
   
  - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
