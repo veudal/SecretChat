@@ -15,6 +15,7 @@
    - Mehr Icons!
    - Verfizierung einfacher designt.
    - Aktiv- und Abwesend Fenster verschönert.
+   
  # Version 2.2:
    - Light-Mode wird nun vollständig untersützt und Secret Chat muss NICHT neugestartet werden (es wird jedoch emphohlen, da erst nach dem Neustart alles angepasst wird).
    - Bei dem Start kann man nun "Nicht mehr fragen" auswählen, wenn die Erinnerung zu Benachrichtigungen aufkommt (damit diese nicht auf Deinen Geist geht).
