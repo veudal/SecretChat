@@ -1,6 +1,29 @@
 
 ## Neue Features:
 
+ # Version 2.4:
+  - Infos sind nun verfügbar! Setze deine benutzerdefinierte Info unter "Mein Account" und lasse sie all deine Freunde sehen.
+  - Neues Einstellungen Design: mehr Informationen in Kateogorien, besser beschrieben und moderner!
+  - Freunde-Chat detailierter durch die Info-Bar, die dir den Namen und den Status deines Freundes verrät. Du kannst auch auf den Namen drauf klicken um seine Info und sein         Profilbild (viel größer) zu sehen!
+  - Nachrichten werden nun verschlüsselt!
+  - Direkt-Chats laden schnelller und perfomanter.
+  - Ein Kanal wurde hinzugefügt: Update Kanal, durch diesen sieht man alle neuen Features auch in der App!
+  - Freunde können nun entfernt werden, die tauchen dadurch nicht mehr in deiner Freundes-Liste auf, jedoch können die Chats bei Gebrauch sofort wieder angezeigt werden sobald       man den Freund wieder hinzufügt.
+ 
+ # Version 2.3:
+   - Secret Chat hat nun einen eigenen Benachrichtigungssound!
+   - Mehr Icons!
+   - Verfizierung einfacher designt.
+   - Aktiv- und Abwesend Fenster verschönert.
+ # Version 2.2:
+   - Light-Mode wird nun vollständig untersützt und Secret Chat muss NICHT neugestartet werden (es wird jedoch emphohlen, da erst nach dem Neustart alles angepasst wird).
+   - Bei dem Start kann man nun "Nicht mehr fragen" auswählen, wenn die Erinnerung zu Benachrichtigungen aufkommt (damit diese nicht auf Deinen Geist geht).
+   - Benutze Emojis mit dem neuen Emoji-Knopf!
+   
+ # Version 2.1:
+  - Neuer Emote: robbenman
+  - Siehe nun in den Einstellungen wie viel Nachrichten du schon mit Secret Chat geschrieben hast!
+ 
   # Version 2.0:
   - Verschiedene Kanäle
   - Freunde & Direktnachrichten
