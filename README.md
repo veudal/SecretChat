@@ -1,8 +1,6 @@
 ![3](https://user-images.githubusercontent.com/62218506/117016251-cf9a6f80-acf2-11eb-867c-507cc979245e.png)
 
 
-
-
 ## [Deutsche Version]
 ***[ENGLISH VERSION BELOW]***
 # Was ist Secret Chat
@@ -86,3 +84,11 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
  - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
  - [Terms of Use](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen.md)
+
+# Some Stats
+
+# ![Profile View Counter](https://komarev.com/ghpvc/?username=SagMeinenNamen)
+# ![Your Repository's Stats](https://contrib.rocks/image?repo=SagMeinenNamen/SecretChat)
+# ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=SagMeinenNamen&show_icons=true)
+# ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SagMeinenNamen&theme=blue-green)
+# ![Jokes Card](https://readme-jokes.vercel.app/api)
