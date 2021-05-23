@@ -10,7 +10,7 @@
 
 Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, der vor allem für junge Leute geschaffen wurde.
 
- ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
+![Screenshot 2021-05-23 194317](https://user-images.githubusercontent.com/62218506/119271889-d8040d00-bc03-11eb-8cec-f7276bc8a8e7.png)
 
 
 # Warum Secret Chat
@@ -36,6 +36,8 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 # Über Secret Chat  
 
 - [Update Informationen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos.md)
+
+- [Mitwirkende & Anerkennungen](https://github.com/SagMeinenNamen/SecretChat/blob/main/Mitwirkende%20%26%20Anerkennungen.md)
   
 - [Datenschutz](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
@@ -53,9 +55,7 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 Short anwser: Secret Chat is a free online instant messaging service that was created especially for young people.
 
- ![image](https://user-images.githubusercontent.com/62218506/116581089-452dc680-a914-11eb-88e1-604ccb89e8ae.png)
-
-
+![Screenshot 2021-05-23 194520](https://user-images.githubusercontent.com/62218506/119271896-e05c4800-bc03-11eb-9a54-f3ff307e863c.png)
 
 
 # Why Secret Chat
@@ -83,6 +83,8 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 # About Secret Chat
 
 - [Notes and the history about the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos.md)
+
+ - [Contributors & Recognitions](https://github.com/SagMeinenNamen/SecretChat/blob/main/Mitwirkende%20%26%20Anerkennungen.md)
   
  - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
