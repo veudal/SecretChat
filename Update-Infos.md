@@ -1,6 +1,18 @@
 
 ## Neue Features:
 
+ # Version 2.6:
+  - Direktnachrichten können gesendet werden ohne das die betroffene Person selber jemals eine Direktnachricht verschickt hat.
+  - Die Freundes-Liste wird nun nach Datum (neuste) sortiert.
+  - Schalter haben nun einen besser zu erkennen Rand.
+  - Neue Nachrichten bei Freunden wird nun "stärker" markiert.
+  - Update-Kanal wird nun eleganter angezeigt.
+
+ # Version 2.5:
+  - Verbesserungen bei den Info-Boxen von anderen Leute im Design, außerdem wird die Info nun beim aufrufen aktualliert statt beim Neustart.
+  - SplashScreen untersützt nun (falls vorhanden) einen zweiten Bildschirm
+  - Leere Nachrichten können nicht mehr abgesendet werden.
+  
  # Version 2.4:
   - Infos sind nun verfügbar! Setze deine benutzerdefinierte Info unter "Mein Account" und lasse sie all deine Freunde sehen.
   - Neues Einstellungen Design: mehr Informationen in Kateogorien, besser beschrieben und moderner!
@@ -100,7 +112,7 @@
 ## Fehlerbehebungen (seit Version 1.0): 
 
    - Leistungsverbesserungen
-   - Problem mit "Ungültiger Authentizifierung" behoben.
+   - Probleme bei der Regrestrierung behoben.
    - Absturz beim Start von Secret Chat wurde behoben.
    - Sicherheitslücken wurden behoben (unteranderem durch Code Authentifizierung).
    - Hintergrund Datenverkehr erheblich verringert.
