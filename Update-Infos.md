@@ -6,7 +6,7 @@
   - Profilbilder können nun zugeschnitten werden!
   - Ladezeit für Direktnachrichten verkürzt/optimisiert.  
   - Tipps beim starten werden nun angezeigt.
-  - 
+  
  # Version 2.6:
   - Direktnachrichten können gesendet werden ohne das die betroffene Person selber jemals eine Direktnachricht verschickt hat.
   - Die Freundes-Liste wird nun nach Datum (neuste) sortiert.
