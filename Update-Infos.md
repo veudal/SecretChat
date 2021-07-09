@@ -40,7 +40,7 @@
    - Benutze Emojis mit dem neuen Emoji-Knopf!
    
  # Version 2.1:
-  - Neuer Emote: robbenman
+  - Neuer Emote: +robbenman
   - Siehe nun in den Einstellungen wie viel Nachrichten du schon mit Secret Chat geschrieben hast!
  
   # Version 2.0:
@@ -50,7 +50,7 @@
   - Auto-Update
   - Automatische Rechtschreibprüfung!
   - Ab jetzt vom Startmenü startbar
-  - Emotes: pog, omegalul, sadge, robbe, ez, juergen, mern (tippe diese Stichwörter am Ende um den jeweiligen Emote zu nutzen) & ein zusätzlicher Easter-Egg Emote 
+  - Emotes: +pog, +omegalul, +sadge, +robbe, +ez, +juergen, +mern (tippe diese Stichwörter am Ende um den jeweiligen Emote zu nutzen) & ein zusätzlicher Easter-Egg Emote 
   - Beim umbennen werden all deine gesendeten Nachrichten auf deinen neuen Namen "verschoben".
   - Beim Account löschen werden all deine gesendeten Nachrichten, oder Nachrichten die an dich gerichtet sind/waren gelöscht.
   - Kompaktere & besser lesbare Nachrichten.
