@@ -93,7 +93,6 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 # Some Stats
 
 # ![Profile View Counter](https://komarev.com/ghpvc/?username=SagMeinenNamen)
-# ![Your Repository's Stats](https://contrib.rocks/image?repo=SagMeinenNamen/SecretChat)
 # ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=SagMeinenNamen&show_icons=true)
 # ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SagMeinenNamen&theme=blue-green)
 # ![Jokes Card](https://readme-jokes.vercel.app/api)
