@@ -43,7 +43,12 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
   
 - [Nutzungsbedingungen](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen.md)
 
+# Neugierig?
 
+Wenn du dich fragst wie die erste offizielle Version von Secret Chat aussah, so kannst du ruhig eine wiederhergestelle Archiv-Version ausprobieren um herauszufinden, wie sich die App entwickelt hat, starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/raw/main/Output/SecretChatOld.exe).
+
+
+<br /> **WICHTIG: Diese sollte nur heruntergeladen werden, wenn du Interesse an der veralteten Version hast, es wird nicht empfohlen diese für regulären Gebrauch zu benutzen.** Die App wird nichts an deiner aktuell installierten Version beschädigen und läuft unabhängig von der aktuellen Version. 
 
 
 
@@ -89,6 +94,13 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
  - [Privacy](https://github.com/SagMeinenNamen/SecretChat/blob/main/Datenschutzerkl%C3%A4rung.md)
   
  - [Terms of Use](https://github.com/SagMeinenNamen/SecretChat/blob/main/Nutzungsbedingungen.md)
+
+# Curious?
+
+If you're wondering what the first official version of Secret Chat looked like, feel free to try a restored archive version to find out how the app developed, start the [download here](https://github.com/SagMeinenNamen/SecretChat/raw/main/Output/SecretChatOld.exe).
+
+
+<br />  **IMPORTANT: This should only be downloaded if you are interested in the outdated version, it is not recommended to use it for regular use.**  The app will not damage your currently installed version and will run independently of the current version. 
 
 # Some Stats
 
