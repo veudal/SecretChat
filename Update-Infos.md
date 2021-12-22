@@ -124,7 +124,7 @@
    - Hintergrund Datenverkehr erheblich verringert.
    - Performanz verbesserungen.
    - Nachrichten unterstützen nun Zeitzonen.
-   - Wer aktuell schreibt unterstützt nun verschiedene Zeitzonen.
+   - Wer aktuell schreibt funtkioniert nun in Echtzeit, funktioniert daher nun egal in welchen Zeitzonen man ist.
    - Secret Chat stürzt nun nicht mehr ab, wenn eine Nachricht gesendet wird während das Programm gestartet wird.
    - Profilbild wird bei allen Nutzern nun zurückgesetzt statt nur Lokal.
    - Man wird nicht mehr noch zusätzlich mit seinem alten Namen in den Online/Abwesenheits Listen, nachdem man seinen Namen geändert hat.
