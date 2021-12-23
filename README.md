@@ -20,7 +20,7 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 - Mit Secret Chat kannst Du sehen wer gerade Online ist oder schreibt.
 - Alles ist personalisierbar
 - Du kannst jederzeit deinen Account löschen und die Deinstallalation ist sehr simpel.
-- Secret Chat ist unter 20 MB groß!
+- Secret Chat ist unter 20 MB groß! 
 - Es ist sehr effizient, sowohl mit dem CPU Verbrauch als auch der Internet-Nutzung.
 
 
