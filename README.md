@@ -1,7 +1,7 @@
 ![3](https://user-images.githubusercontent.com/62218506/117016251-cf9a6f80-acf2-11eb-867c-507cc979245e.png)
 # 
 <p align="center">
-  <a href="https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat-Installer.exe"><img src="https://raw.githubusercontent.com/hictooth/WildSkies/master/button_download-windows.png" /></a>
+  <a href="https://github.com/SagMeinenNamen/SecretChat/releases/download/SecretChat-Installer/SecretChat-Installer.exe"><img src="https://raw.githubusercontent.com/hictooth/WildSkies/master/button_download-windows.png" /></a>
 </p>
 
 ## [Deutsche Version]
@@ -30,7 +30,7 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 [![Github All Releases](https://img.shields.io/github/downloads/SagMeinenNamen/SecretChat/total.svg?color=2785CD)]()
 
-- Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat-Installer.exe) und öffne den installer um Secret Chat zu installieren. 
+- Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/releases/download/SecretChat-Installer/SecretChat-Installer.exe) und öffne den installer um Secret Chat zu installieren. 
 - Nun musst du nur deinen Nutzernamen setzen und einen Code eingeben den du von mir erhälts (einfach fragen, Discord: Armin#2682)
 - Schon kann es losgehen. 
 
@@ -81,7 +81,7 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 
 # Getting started
 
-- Start the [download here](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat-Installer.exe) and open the installer to install Secret Chat.
+- Start the [download here](https://github.com/SagMeinenNamen/SecretChat/releases/download/SecretChat-Installer/SecretChat-Installer.exe) and open the installer to install Secret Chat.
 - Now you just have to set your username and a code that you will receive from me (just ask, Discord: Armin#2682).
 - Now you are ready to go. 
 
