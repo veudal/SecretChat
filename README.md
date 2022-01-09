@@ -28,12 +28,15 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 # Erste Schritte 
 
+[![Github All Releases](https://img.shields.io/github/downloads/SagMeinenNamen/SecretChat/total.svg?color=2785CD)]()
+
 - Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/raw/main/SecretChat-Installer.exe) und öffne den installer um Secret Chat zu installieren. 
 - Nun musst du nur deinen Nutzernamen setzen und einen Code eingeben den du von mir erhälts (einfach fragen, Discord: Armin#2682)
 - Schon kann es losgehen. 
 
 
 # Über Secret Chat  
+
 
 - [Update Informationen von Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos.md)
 
