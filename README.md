@@ -16,6 +16,7 @@
 ![Commits](https://img.shields.io/github/commit-activity/y/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-windows-blue.svg?style=for-the-badge)
 
+
 ## [Deutsche Version]
 ***[ENGLISH VERSION BELOW]***
 # Was ist Secret Chat
