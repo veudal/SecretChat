@@ -12,7 +12,7 @@
 ![MIT License](https://img.shields.io/github/license/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![Downloads](https://img.shields.io/github/downloads/SagMeinenNamen/SecretChat/SecretChat-Installer/total.svg?style=for-the-badge)
-![Lines](https://img.shields.io/tokei/lines/github/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Lines](https://img.shields.io/badge/Lines-11k-blue.svg?style=for-the-badge) 
 ![Commits](https://img.shields.io/github/commit-activity/y/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-windows-blue.svg?style=for-the-badge)
 
