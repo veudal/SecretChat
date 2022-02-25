@@ -4,6 +4,18 @@
   <a href="https://github.com/SagMeinenNamen/SecretChat/releases/download/SecretChat-Installer/SecretChat-Installer.exe"><img src="https://raw.githubusercontent.com/hictooth/WildSkies/master/button_download-windows.png" /></a>
 </p>
 
+#
+![Contributors](https://img.shields.io/github/contributors/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Stargazers](https://img.shields.io/github/stars/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Issues]( https://img.shields.io/github/license/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![MIT License](https://img.shields.io/github/license/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/SagMeinenNamen/SecretChat/SecretChat-Installer/total.svg?style=for-the-badge)
+![Lines](https://img.shields.io/tokei/lines/github/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Commits](https://img.shields.io/github/commit-activity/y/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-windows-blue.svg?style=for-the-badge)
+
 ## [Deutsche Version]
 ***[ENGLISH VERSION BELOW]***
 # Was ist Secret Chat
@@ -27,8 +39,6 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 
 # Erste Schritte 
-
-[![Github All Releases](https://img.shields.io/github/downloads/SagMeinenNamen/SecretChat/total.svg?color=2785CD)]()
 
 - Starte den [download hier](https://github.com/SagMeinenNamen/SecretChat/releases/download/SecretChat-Installer/SecretChat-Installer.exe) und öffne den installer um Secret Chat zu installieren. 
 - Nun musst du nur deinen Nutzernamen setzen und einen Code eingeben den du von mir erhälts (einfach fragen, Discord: Armin#2682)
