@@ -9,6 +9,8 @@
 ![Forks](https://img.shields.io/github/forks/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![Stargazers](https://img.shields.io/github/stars/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![MIT License](https://img.shields.io/github/license/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Open Issues](https://img.shields.io/github/issues-raw/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
+![Closed Issues](https://img.shields.io/github/issues-closed-raw/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/SagMeinenNamen/SecretChat.svg?style=for-the-badge)
 ![Downloads](https://img.shields.io/github/downloads/SagMeinenNamen/SecretChat/SecretChat-Installer/total.svg?style=for-the-badge)
 ![Lines](https://img.shields.io/badge/Lines-11k-blue.svg?style=for-the-badge) 
