@@ -97,7 +97,6 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 
 
 
-
 # About Secret Chat
 
 - [Notes and the history about the versions of Secret Chat](https://github.com/SagMeinenNamen/SecretChat/blob/main/Update-Infos.md)
