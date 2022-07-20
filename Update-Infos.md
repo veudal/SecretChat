@@ -3,7 +3,6 @@
 
 # Version 2.7:
   - Dateien können nun hochgeladen werden!
-  - Profilbilder können nun zugeschnitten werden!
   - Ladezeit für Direktnachrichten verkürzt/optimisiert.  
   - Tipps beim starten werden nun angezeigt.
   
