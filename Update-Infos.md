@@ -1,6 +1,23 @@
 
 ## Neue Features:
 
+# Version 2.8:
+  - Bei ALLEN emotes muss ab nun ein # geschrieben werden damit sie erkannt werden!!
+  - Sprachnachrichten können nun aufgenommen werden
+  - Öffentliche Nachrichten-Zähler. Öffne das Profil eines Freundes und sehe wie viele Nachrichten er/sie geschrieben hat!
+  - Mehrere Sprachen werden nun unterstützt
+  - Animationen hinzugefügt
+  - App bleibt man laden nicht mehr hängen
+  - Start zeit verkürtzt, indem Nachrichten erst nach dem starten geladen werden.
+  - Das Laden von Nachrichten wird nun mit einem Ladekreis visuallisiert.
+  - Upload-Fenster unterstützt jetzt den Lightmode
+  - Neue-Nachrichten-Zähler in der Taskleiste verschönert/stabilisiert
+  - Weniger perfomenz Probleme beim schreiben und senden von Nachrichten
+  - MAC-Adresse wird ab jetzt nicht mehr gespeichert
+  - Enter & Shift + Enter vermischt sich jetzt nicht mehr
+  - Dateien werden (mit einem Symbol und Farben) makiert
+  - Nachirchten sind nun selektierbar
+
 # Version 2.7:
   - Dateien können nun hochgeladen werden!
   - Ladezeit für Direktnachrichten verkürzt/optimisiert.  
