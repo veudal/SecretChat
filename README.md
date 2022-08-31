@@ -84,7 +84,7 @@ Short anwser: Secret Chat is a free online instant messaging service that was cr
 - With Secret Chat you can chat with your friends or with strangers whenever you want.
 - Through Secret Chat you can see who is currently online or who is writing.
 - It is customizable
-- You can delete your account at any time and the deinstallation is extreamly simple.
+- You can delete your account at any time and the installation is extremely simple.
 - Secret Chat is under 20MB!
 - It is very efficient in terms of both CPU consumption and internet usage.
 
