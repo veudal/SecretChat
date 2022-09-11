@@ -31,7 +31,7 @@ Kurzgesagt: Secret Chat ist ein kostenlose Onlinedienst für Instant Messaging, 
 
 - Um Secret chat verwenden zu können brauchst Du KEINEN Account, du wirst über deinen Computer identifiziert. 
 - Durch Secret Chat kannst du mit Freunden oder Fremden chatten.
-- Mit Secret Chat kannst Du sehen wer gerade Online ist oder schreibt.
+- Mit Secret Chat kannst Du sehen, wer gerade Online ist oder schreibt.
 - Alles ist personalisierbar
 - Du kannst jederzeit deinen Account löschen und die Deinstallalation ist sehr simpel.
 - Secret Chat ist unter 20 MB groß! 
