@@ -2,7 +2,7 @@
 ## Neue Features:
 
 # Version 2.8:
-  - Bei ALLEN emotes muss ab nun ein # geschrieben werden damit sie erkannt werden!!
+  - Bei ALLEN emotes muss ab nun ein hastag(#) geschrieben werden damit sie erkannt werden!!
   - Sprachnachrichten können nun aufgenommen werden
   - Öffentliche Nachrichten-Zähler. Öffne das Profil eines Freundes und sehe wie viele Nachrichten er/sie geschrieben hat!
   - Mehrere Sprachen werden nun unterstützt
