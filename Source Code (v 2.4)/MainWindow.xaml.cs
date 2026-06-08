@@ -1007,8 +1007,6 @@ namespace SecretChat
         //    // Get the line number from the stack frame
         //    var line = frame.GetFileLineNumber();
         //    crash = true;
-        //    ErrorInfo = "Ein unbekannter Fehler ist aufgetreten, es tut uns Leid, es liegt nicht an Dir, sondern an uns, damit dies nicht wieder vorkommt sende den Fehler (er wurde in Deine Zwischenablage gespeichert) an folgende Email-Adresse: armulic@live.de. Secret Chat® wird nun automatisch beendet. Fehler:  " + e.Message + "  Line: " + line + " in " + frame + "              Der Fehler wurde in Deine Zwischenablage gespeichert.";
-        //    //ErrorInfo = "Ein unbekannter Fehler ist aufgetreten, es tut uns Leid, sondern an uns, damit dies nicht wieder vorkommt sende den Fehler (er wurde in Deine Zwischenablage gespeichert) an folgende Email-Adresse: armulic@live.de. Secret Chat® wird nun automatisch beendet. Fehler:  " + e.Message + "  Line: " + line + " in " + frame + "              Der Fehler wurde in Deine Zwischenablage gespeichert.";
         //}
         //}
 
@@ -2852,11 +2850,11 @@ namespace SecretChat
                 var frame = st.GetFrame(0);
                 var line = frame.GetFileLineNumber();
                 crash = true;
-                ErrorInfo = "Ein Fehler ist aufgetreten, es tut uns Leid, es liegt nicht an Dir, sondern an uns, damit dies nicht wieder vorkommt sende den Fehler (er wurde in Deine Zwischenablage gespeichert) an folgende Email-Adresse: armulic@live.de. Secret Chat® wird nun automatisch beendet. Fehler:  " + ex.Message + "  Line: " + line + " in " + frame + "              Der Fehler wurde in Deine Zwischenablage gespeichert.";
+                ErrorInfo = "Ein Fehler ist aufgetreten, es tut uns Leid, es liegt nicht an Dir, sondern an uns, damit dies nicht wieder vorkommt sende den Fehler (er wurde in Deine Zwischenablage gespeichert) an folgende Email-Adresse: EMAIL HIER. Secret Chat® wird nun automatisch beendet. Fehler:  " + ex.Message + "  Line: " + line + " in " + frame + "              Der Fehler wurde in Deine Zwischenablage gespeichert.";
                 System.Windows.MessageBox.Show(ErrorInfo);
                 System.Windows.Clipboard.SetText(ErrorInfo);
                 Environment.Exit(0);
-                //ErrorInfo = "Ein unbekannter Fehler ist aufgetreten, es tut uns Leid, es liegt nicht an dir, sondern an uns, damit dies nicht wieder vorkommt sende den Fehler (er wurde in Deine Zwischenablage gespeichert) an folgende Email-Adresse: armulic@live.de. Secret Chat® wird nun automatisch beendet. Fehler:  " + e.Message + "  Line: " + line + " in " + frame + "              Der Fehler wurde in Deine Zwischenablage gespeichert.";
+               
             }
         }
 
